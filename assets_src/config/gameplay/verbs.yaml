@@ -1,0 +1,26 @@
+---
+
+# THE ORDER OF ENTRIES ON THIS FILE MATTERS!!!
+# It affects how they show up on the action menu
+#
+# Please keep them in this order:
+#
+# Primary actions
+# Secondary actions
+# "Wait"
+# Grooves/Spells
+# "Cancel"
+
+verbs:
+
+  - id: groove_fire_craze
+    icon: ui/icons/grooves/unit_action_icon_fire_craze.png
+    name: groove_name_fire_craze
+    targetColour: target
+    targetOutlineColour: target_outline
+    targetDisplayColour: attack_target
+    targetDisplayOutlineColour: attack_target_outline
+    preExecute: true
+    hasCustomSplash: false
+    scriptName: verbs/groove_fire_craze
+...

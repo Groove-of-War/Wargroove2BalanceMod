@@ -1,0 +1,96 @@
+---
+
+# Groove Speeds
+# Very Fast: 50
+# Fast: 75
+# Medium: 100
+# Slow: 150
+# Very Slow: 200
+# Extremely Slow: 250
+
+grooves:
+  - id: heal_aura
+    name: groove_name_heal_aura
+    description: groove_description_heal_aura
+    grooveCostTier1: 50
+    grooveCostTier2: 100
+    verb: groove_heal_aura
+  
+  - id: raise_dead
+    name: groove_name_raise_dead
+    description: groove_description_raise_dead
+    grooveCostTier1: 75
+    grooveCostTier2: 225
+    verb: groove_raise_dead
+
+  - id: splash_jump
+    name: groove_name_splash_jump
+    description: groove_description_splash_jump
+    grooveCostTier1: 100
+    grooveCostTier2: 200
+    verb: groove_splash_jump
+
+  - id: vine_wall
+    name: groove_name_vine_wall
+    description: groove_description_vine_wall
+    grooveCostTier1: 150
+    grooveCostTier2: 300
+    verb: groove_vine_wall
+
+  - id: vampiric_touch
+    name: groove_name_vampiric_touch
+    description: groove_description_vampiric_touch
+    grooveCostTier1: 100
+    grooveCostTier2: 175
+    verb: groove_vampiric_touch
+
+  - id: teleport_beam
+    name: groove_name_teleport_beam
+    description: groove_description_teleport_beam
+    grooveCostTier1: 150
+    grooveCostTier2: 300
+    verb: groove_teleport_beam
+
+  - id: cherrystone_defence
+    name: groove_name_cherrystone_defence
+    description: groove_description_cherrystone_defence
+    grooveCostTier1: 100
+    grooveCostTier2: 175
+    verb: groove_cherrystone_defence
+
+  - id: convert
+    name: groove_name_convert
+    description: groove_description_convert
+    grooveCostTier1: 100
+    grooveCostTier2: 200
+    verb: groove_convert
+
+  - id: golf
+    name: groove_name_golf
+    description: groove_description_golf
+    grooveCostTier1: 100
+    grooveCostTier2: 250
+    verb: groove_golf
+
+  - id: smoke_screen
+    name: groove_name_smoke_screen
+    description: groove_description_smoke_screen
+    grooveCostTier1: 200
+    grooveCostTier2: 350
+    verb: groove_smoke_screen
+
+  - id: powerful_form
+    name: groove_name_powerful_form
+    description: groove_description_powerful_form
+    grooveCostTier1: 100
+    grooveCostTier2: 200
+    verb: groove_powerful_form
+
+  - id: chain_reaction
+    name: groove_name_chain_reaction
+    description: groove_description_chain_reaction
+    grooveCostTier1: 150
+    grooveCostTier2: 300
+    verb: groove_chain_reaction
+
+...

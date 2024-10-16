@@ -1,0 +1,34 @@
+---
+
+weapons:
+  - id: frog_tongue
+    rangeMin: 1
+    rangeMax: 1
+    canMoveAndAttack: true
+    baseDamage:
+      land: 1
+      water: 1
+      buildings: 1
+
+unitClasses:
+  - id: frog
+    name: unit_class_name_frog
+    cost: 600
+    resourceCost: 2
+    movement: amphibious
+    moveRange: 7
+    damageMultiplier: 1
+    uiEffectivenessMultiplier: 2
+    aiPriority: 1.0
+    weapons:
+      - id: frog_tongue
+    verbs:
+      - load
+      - pull
+    tags:
+      - frog
+      - type.amphibious.light
+    battleUnitCount: 4
+    passiveMultiplier: 1.5
+    sightRange: 2
+...
