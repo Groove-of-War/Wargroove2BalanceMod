@@ -12,8 +12,8 @@ grooves:
   - id: heal_aura
     name: groove_name_heal_aura
     description: groove_description_heal_aura
-    grooveCostTier1: 50
-    grooveCostTier2: 100
+    grooveCostTier1: 75
+    grooveCostTier2: 125
     verb: groove_heal_aura
   
   - id: raise_dead
