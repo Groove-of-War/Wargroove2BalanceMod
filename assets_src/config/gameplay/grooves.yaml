@@ -51,6 +51,13 @@ grooves:
     grooveCostTier2: 300
     verb: groove_teleport_beam
 
+  - id: dash
+    name: groove_name_dash
+    description: groove_description_dash
+    grooveCostTier1: 50
+    grooveCostTier2: 150
+    verb: groove_dash
+
   - id: cherrystone_defence
     name: groove_name_cherrystone_defence
     description: groove_description_cherrystone_defence
