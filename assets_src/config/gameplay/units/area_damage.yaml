@@ -1,0 +1,45 @@
+---
+
+unitClasses:
+  - id: area_damage
+    name: unit_class_name_area_damage_unit
+    nameOverride: unit_class_name_area_damage
+    movement: walking
+    moveRange: 0
+    damageMultiplier: 0.25
+    battleUnitCount: 1
+    passiveMultiplier: 1.0
+    sightRange: 0
+    classIcon: unit_icons_summon
+    isHidden: true
+    hasTurn: false
+    isRecruitable: false
+    isSpawnable: false
+    regeneration: 0
+    deathVerbId: death_area_damage
+    hasDeathAnimation: false
+    tags:
+      - summon
+
+
+units:
+  - class: area_damage
+    faction: outlaw
+    mapAnimation: units/commanders/twins/map_fire_ball
+    battleAnimation: units/commanders/twins/battle_fire_ball
+    smallPortrait: units/commanders/twins/portrait_fire_ball_small.png
+    mediumPortrait: units/commanders/twins/portrait_fire_ball_medium.png
+    mapSpeed: 4.0
+    grabPos: [13, 14]
+    runsIn: false
+    deathMoveMin: 0
+    deathMoveMax: 0
+    sounds:
+      death: emeric/emericCrystalDie
+      deathMap: unitDie
+      deathMapNoBattle: emeric/emericCrystalDie
+      hit: hitStone
+      hitMap: hitStone
+    hasBattleScreen: false
+
+...

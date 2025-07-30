@@ -44,6 +44,13 @@ grooves:
     grooveCostTier2: 175
     verb: groove_vampiric_touch
 
+  - id: sadistic_rush
+    name: groove_name_sadistic_rush
+    description: groove_description_sadistic_rush
+    grooveCostTier1: 150
+    grooveCostTier2: 400
+    verb: groove_sadistic_rush
+
   - id: teleport_beam
     name: groove_name_teleport_beam
     description: groove_description_teleport_beam
@@ -100,4 +107,10 @@ grooves:
     grooveCostTier2: 300
     verb: groove_chain_reaction
 
+  - id: spin
+    name: groove_name_spin
+    description: groove_description_spin
+    grooveCostTier1: 75
+    grooveCostTier2: 225
+    verb: groove_spin
 ...

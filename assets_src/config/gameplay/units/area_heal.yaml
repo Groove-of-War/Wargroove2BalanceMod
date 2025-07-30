@@ -1,0 +1,45 @@
+---
+
+unitClasses:
+  - id: area_heal
+    name: unit_class_name_area_heal
+    movement: walking
+    moveRange: 0
+    damageMultiplier: 0.25
+    battleUnitCount: 1
+    passiveMultiplier: 1.25
+    sightRange: 0
+    classIcon: unit_icons_summon
+    buffId: crystal
+    isHidden: true
+    hasTurn: false
+    isRecruitable: false
+    isSpawnable: false
+    regeneration: 0
+    deathVerbId: death_area_heal
+    hasDeathAnimation: false
+    tags:
+      - summon
+
+
+units:
+  - class: area_heal
+    faction: outlaw
+    name: unit_class_name_area_heal
+    mapAnimation: units/commanders/twins/map_water_ball
+    battleAnimation: units/commanders/twins/battle_water_ball
+    smallPortrait: units/commanders/twins/portrait_water_ball_small.png
+    mediumPortrait: units/commanders/twins/portrait_water_ball_medium.png
+    mapSpeed: 4.0
+    grabPos: [13, 14]
+    runsIn: false
+    deathMoveMin: 0
+    deathMoveMax: 0
+    sounds:
+      death: emeric/emericCrystalDie
+      deathMap: unitDie
+      deathMapNoBattle: emeric/emericCrystalDie
+      hit: hitStone
+      hitMap: hitStone
+
+...
